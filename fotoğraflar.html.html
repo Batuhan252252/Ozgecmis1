@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgeçmiş sitesi</title>
+    <link rel="stylesheet"href="style2.css">
+</head>
+<style>
+    body {
+        background: #ffff;
+    }
+    .containeer {
+        width: 90%;
+        margin:0 auto;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .box {
+        width: 180px;
+        height: 180px;
+        background: gray;
+        margin: 0px 37px;
+        transition: 0.5s;
+    }
+    .box:hover {
+        transform: scale(1.4);
+        background: black;
+        z-index: 2;
+    }
+</style>
+    <button onclick="this.innerHTML=Date()">şuan saat</button>
+
+
+<div class="container">
+    <div class="navbar">
+        <div class="BM">
+            <a href="#">B.M</a>
+        </div>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkımda.html.html">Hakkımda</a></li>
+            <li><a href="fotoğraflar.html.html"class="active">Fotoğraflar</a></li>
+            <li><a href="iletişim.html.html">İletişim</a></li>
+            <li><a href="portfolyo.html">portfolyo</a></li>
+        </ul>
+    </div>
+</div>
+</div>  
+    
+<div class="containeer">
+<div class="box"><img src="2.jpeg" width="220" height="200"/></div>
+<div class="box"><img src="3.jpeg" width="220" height="200"/></div>
+<div class="box"><img src="4.jpeg" width="220" height="200/"></div>
+<div class="box"><img src="5.jpeg" width="220" height="200/"></div>
+<div class="box"><img src="1.jpg" width="220" height="200/"></div>
+</div>
+</body>
+</html>

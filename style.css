@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.container {
+    background: url(bg.jpg);
+    height: 100vh;
+    background-size; 100% 100%
+
+}
+.container .navbar{
+    width: 100%;
+    height: 90px;
+    background:rgb(225, 239, 255)
+}
+
+.navbar .BM{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.navbar .BM a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(4, 56, 96);
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: rgb(5, 113, 135);
+    text-decoration: none;
+    font-size: 26px;
+    padding: 6px 13;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background:#40b1b5;
+   border-radius:2px;
+
+}
+.container .center{
+    color: rgb(1, 16, 80);
+    font-size:25px;
+    position:absolute;
+    top: 60%;
+    left:35%;
+    transform:translate(-50%-50%);
+}
+.centerh1{
+    color: blue;
+    font-size: 70px;
+    font-weight: bold;
+    width:900px;
+}
+body{
+    font-family: 'montserrat', sans-serif;
+    color:#40b1b5
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size:10px;
+    position:absolute;
+    top: 3%;
+    left:13%;
+    transform:translate(-50%-50%);
+}
+.header{padding: 0;
+
+}
+
+.header input{
+    width: 72%;
+    padding: 2px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    color: black;
+}
+.city{
+    text-shadow: 0px;
+}
+.temp{
+    text-shadow: 0px;
+}
+.desc{
+    font-style: italic;
+}
+.minmax{
+    text-shadow: 0;
+}

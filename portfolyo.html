@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgeçmiş sitesi</title>
+    <link rel="stylesheet"href="style2.css">
+</head>
+<style>
+    body {
+        background-color: #40b1b5;
+    }
+    .containeer {
+        width: 90%;
+        display: grid;
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit,
+        300px);
+    }
+    .box {
+        width: 180px;
+        height: 180px;
+        background: gray;
+        margin: 80px 80px;
+        transition: 0.5s;
+    }
+    .box:hover {
+        transform: scale(1.5);
+        background: black;
+        z-index: 2;
+    }
+</style>
+<body>
+    
+    <button onclick="this.innerHTML=Date()">şuan saat</button>
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="BM">
+            <a href="#">B.M</a>
+        </div>
+   
+    <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkımda.html.html">Hakkımda</a></li>
+        <li><a href="fotoğraflar.html.html">Fotoğraflar</a></li>
+        <li><a href="iletişim.html.html">İletişim</a></li>
+        <li><a href="portfolyo.html"class="active">portfolyo</a></li>
+    </ul>
+
+    <div class="containeer">
+        <div class="box"><img src="10.jpg" width="290" height="320"/></div>
+        <div class="box"><img src="11.jpg" width="290" height="320"/></div>
+        <div class="box"><img src="12.jpg" width="290" height="320/"></div>
+        <div class="box"><img src="13.jpg" width="290" height="320/"></div>
+        <div class="box"><img src="14.jpg" width="290" height="320/"></div>
+    <div class="box"><img src="15.jpg" width="290" height="320"/></div>
+    <div class="box"><img src="16.jpg" width="290" height="320"/></div>
+    <div class="box"><img src="17.jpg" width="290" height="320/"></div>
+    <div class="box"><img src="19.jpg" width="290" height="320/"></div>
+    <div class="box"><img src="20.jpg" width="290" height="320/"></div>
+        </div>
+
+</body>
+</html>
