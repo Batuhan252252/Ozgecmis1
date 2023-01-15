@@ -1,0 +1,2 @@
+# Ozgecmis1
+portfolyo
